@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>login sample</title>
+
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
+   
+     <script src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+
+</head>
+<body>
+ <form id="myAjaxRequestForm">
+        <fieldset>
+            <legend>login Request</legend>
+            
+                <p>
+                    <label for="usernameCode">username:</label><br />
+                    <input id="usernameCode" type="text" name="usernameCode" />
+                </p>
+                 <p>
+                    <label for="passwordcode">password:</label><br />
+                    <input id="passwordcode" type="password" name="passwordcode" />
+                </p>
+                <p>
+                    <input id="myButton" type="button" value="Submit" />
+                </p>
+        </fieldset>
+    </form>
+    <div id="anotherSection">
+        <fieldset>
+            <legend>display</legend>
+                 <div id="ajaxResponse"></div>
+        </fieldset>
+    </div>   
+</body>
+</html>
